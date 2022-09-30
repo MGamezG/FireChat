@@ -1,2 +1,6 @@
-
+<ul>
+  <li class="text" *ngFor="let item of chats | async">
+    {{item.mensaje}}
+  </li>
+</ul>
 <router-outlet></router-outlet>
