@@ -1,6 +1,14 @@
-<ul>
+<!-- <ul>
   <li class="text" *ngFor="let item of chats | async">
     {{item.mensaje}}
   </li>
-</ul>
+</ul> -->
+<div class="container main-container">
+  <div class="row">
+    <div class="col-12 chat-window">
+      <app-chat></app-chat>
+    </div>
+  </div>
+</div>
+
 <router-outlet></router-outlet>
